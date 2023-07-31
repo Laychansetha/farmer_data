@@ -1,6 +1,15 @@
 import streamlit as st
 from streamlit_extras.metric_cards import style_metric_cards
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 st.title("Summary Farmer Data")
 
 col1, col2, col3 = st.columns(3)
