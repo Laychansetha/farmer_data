@@ -1,0 +1,6 @@
+numpy
+pandas
+openpyxl
+pyreadstat
+streamlit-extras
+streamlit
